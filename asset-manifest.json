@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0c112d0a.css",
+    "main.js": "/portfolio/static/js/main.f3dd4c6b.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/dnd.mp4": "/portfolio/static/media/dnd.a7016421a5beb3391bde.mp4",
+    "static/media/alarm.mp4": "/portfolio/static/media/alarm.5104a1015f68247b7734.mp4",
+    "static/media/elden.mp4": "/portfolio/static/media/elden.34c1bf3c32be1a08e449.mp4",
+    "static/media/pikachu.png": "/portfolio/static/media/pikachu.70051f9e4fffe8a208d0.png",
+    "static/media/CompTech.jpg": "/portfolio/static/media/CompTech.819f18f7919c8cdb446b.jpg",
+    "static/media/work.jpg": "/portfolio/static/media/work.e63126ab9ecb8508b494.jpg",
+    "static/media/education.jpg": "/portfolio/static/media/education.612dacc74d81c3360b77.jpg",
+    "static/media/la.jpg": "/portfolio/static/media/la.dc3bb5c0962fe4a87df3.jpg",
+    "static/media/projects.jpg": "/portfolio/static/media/projects.656de58dc61f3a3a2540.jpg",
+    "static/media/snake.mp4": "/portfolio/static/media/snake.ea9a21c421b052397999.mp4",
+    "static/media/skills.jpeg": "/portfolio/static/media/skills.a7f10b2c642ca651a3ee.jpeg",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.5b70884be97e165d536b.jpg",
+    "static/media/colorado.png": "/portfolio/static/media/colorado.685c785fefaf6d144d4c.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.0c112d0a.css.map": "/portfolio/static/css/main.0c112d0a.css.map",
+    "main.f3dd4c6b.js.map": "/portfolio/static/js/main.f3dd4c6b.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/portfolio/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c112d0a.css",
+    "static/js/main.f3dd4c6b.js"
+  ]
+}

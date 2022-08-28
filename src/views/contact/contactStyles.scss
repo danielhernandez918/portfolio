@@ -1,0 +1,49 @@
+.z-index {
+    z-index: -1;
+}
+
+#contact {
+    font-size: 5.2em;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    // text-shadow: 0px 0px 5px black;
+}
+
+.email {
+    font-size: 5.2em;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    // text-shadow: 0px 0px 5px black;
+}
+
+
+
+.row-contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    gap: 20px;
+}
+
+.icon-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide {
+    display:none;
+}
+
+.links-name:hover + .hide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-style: italic;
+    font-size: 1.5em;
+    /* -webkit-text-stroke: .5px black; */
+}

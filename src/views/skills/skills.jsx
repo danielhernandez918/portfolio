@@ -14,8 +14,8 @@ import vscode from "../../static/images/vscode.png";
 import springtool from "../../static/images/springtool.png";
 import jsp from "../../static/images/jsp.png";
 import jquery from "../../static/images/jquery.png";
-// import { StyleSheet, Text, SafeAreaView, ScrollView, StatusBar } from 'react-native';
-// import ScrollAnimation from 'react-animate-on-scroll';
+import { motion } from 'framer-motion'
+// import ReactTooltip from 'react-tooltip';
 import './skillsStyles.scss';
 
 
@@ -24,105 +24,108 @@ const Skills = () => {
     return (
         <div>
         <h1 id="skill">Skills</h1>
-        <div class="skills-Container">
-            <div class="skills-List">
-                <div class="skills-Item flex">
-                    <div class="flex">
+        <div className="skills-Container">
+            <motion.div 
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duraction: 0.5 }} 
+                className="skills-List">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={html} alt="javascript-circle" />
                     </div>
                     <p class="p-text">HTML</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={javascriptPic} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">JavaScript</p>
+                    <p className="p-text">JavaScript</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={cssPic} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">CSS</p>
+                    <p className="p-text">CSS</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={python} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">Python</p>
+                    <p className="p-text">Python</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={java} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">Java</p>
+                    <p className="p-text">Java</p>
                 </div>
-                <div class="skills-Item flex">
+                <div className="skills-Item flex">
                     <div class="flex">
                         <img src={flaskPic} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">Flask</p>
+                    <p className="p-text">Flask</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={mongodb} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">MongoDB</p>
+                    <p className="p-text">MongoDB</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={react} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">React</p>
+                    <p className="p-text">React</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={node} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">Node</p>
+                    <p className="p-text">Node</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={mysql} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">MySQL</p>
+                    <p className="p-text">MySQL</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={git} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">Git</p>
+                    <p className="p-text">Git</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={bootstrap} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">Bootstrap</p>
+                    <p className="p-text">Bootstrap</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={vscode} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">VSCode</p>
+                    <p className="p-text">VSCode</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={springtool} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">Springtool</p>
+                    <p className="p-text">Springtool</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={jsp} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">Java Server Pages</p>
+                    <p className="p-text">Java Server Pages</p>
                 </div>
-                <div class="skills-Item flex">
-                    <div class="flex">
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={jquery} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">jQuery</p>
+                    <p className="p-text">jQuery</p>
                 </div>
-            </div>
+            </motion.div>
         </div>
     </div>
     )

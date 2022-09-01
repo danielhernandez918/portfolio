@@ -1,7 +1,9 @@
+import React from 'react';
 import javascriptPic from "../../static/images/javascript.png";
 import cssPic from "../../static/images/css.png";
 import flaskPic from "../../static/images/flask.png";
 import git from "../../static/images/git.png";
+import github from "../../static/images/github.png"
 import html from "../../static/images/html.png";
 import mongodb from "../../static/images/mongodb.png";
 import mysql from  "../../static/images/mysql.png";
@@ -14,16 +16,17 @@ import vscode from "../../static/images/vscode.png";
 import springtool from "../../static/images/springtool.png";
 import jsp from "../../static/images/jsp.png";
 import jquery from "../../static/images/jquery.png";
+import json from "../../static/images/json.png"
+import postman from "../../static/images/postman.png"
 import { motion } from 'framer-motion'
-// import ReactTooltip from 'react-tooltip';
 import './skillsStyles.scss';
 
 
 const Skills = () => {
 
     return (
-        <div>
-        <h1 id="skill">Skills</h1>
+    <div className="color">
+        <h1 id="Skills">Skills</h1>
         <div className="skills-Container">
             <motion.div 
                 whileInView={{ opacity: [0, 1] }}
@@ -33,7 +36,7 @@ const Skills = () => {
                     <div className="flex">
                         <img src={html} alt="javascript-circle" />
                     </div>
-                    <p class="p-text">HTML</p>
+                    <p className="p-text">HTML</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
@@ -97,6 +100,12 @@ const Skills = () => {
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
+                        <img src={github} alt="javascript-circle" />
+                    </div>
+                    <p className="p-text">Github</p>
+                </div>
+                <div className="skills-Item flex">
+                    <div className="flex">
                         <img src={bootstrap} alt="javascript-circle" />
                     </div>
                     <p className="p-text">Bootstrap</p>
@@ -124,6 +133,18 @@ const Skills = () => {
                         <img src={jquery} alt="javascript-circle" />
                     </div>
                     <p className="p-text">jQuery</p>
+                </div>
+                <div className="skills-Item flex">
+                    <div className="flex">
+                        <img src={json} alt="javascript-circle" />
+                    </div>
+                    <p className="p-text">JSON</p>
+                </div>
+                <div className="skills-Item flex">
+                    <div className="flex">
+                        <img src={postman} alt="javascript-circle" />
+                    </div>
+                    <p className="p-text">Postman</p>
                 </div>
             </motion.div>
         </div>

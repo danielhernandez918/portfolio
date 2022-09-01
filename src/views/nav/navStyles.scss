@@ -3,22 +3,6 @@
     margin:0;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    /* background-color: white; */
-    /* color: white; */
-}
-
-// .headerImage {
-//     background-image: url('../static/images/CompTech.jpg');
-//     background-position: center;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     background-attachment: fixed;
-//     width: 100%;
-//     /* min-height: 30vh; */
-// }
-
 #nav {
     display: flex;
     align-items: center;
@@ -29,56 +13,17 @@ body {
     position: fixed;
     width: 100%;
     margin: 0 auto;
-    background-color: crimson;
+    background-color: rgb(179, 65, 65);
+    z-index: 2;
     @media screen and (max-width: 900px) {
         display: none;
     }
 }
 
-// #nav {
-//     flex: 1;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     list-style: none;
-
-//     li {
-//         margin: 0 1rem;
-//         cursor: pointer;
-//         flex-direction: column;
-
-//         div {
-//             width: 5px;
-//             height: 5px;
-//             background: transparent;
-//             border-radius: 50%;
-//             margin-bottom: 5px;
-//         }
-
-//         a {
-//             color: var(--gray-color);
-//             text-decoration: none;
-//             flex-direction: column;
-//             text-transform: uppercase;
-//             font-weight: 500;
-//             transition: all 0.3s ease-in-out;
-
-//             &:hover {
-//                 color: var(--secondary-color)
-//             }
-//         }
-
-//         &:hover {
-//             div {
-//                 background: var(--secondary-color);
-//             }
-//         }
-//     }
-
-//     @media screen and (max-width: 900px) {
-//         display: none;
-//     }
-// }
+#nav a {
+    text-decoration: none;
+    color: white;
+}
 
 .app__navbar-menu {
     width: 35px;
@@ -91,13 +36,14 @@ body {
     align-items: center;
     margin: 0.5rem;
     background-color: rgb(179, 65, 65);
-
+    z-index: 2;
+    //for hamburger button
     svg {
         width: 70%;
         height: 70%;
-        color: var(--white-color);
+        color: white;
     }
-
+    //for menu popout
     div {
         position: fixed;
         top: 0;
@@ -119,7 +65,7 @@ body {
         svg {
             width: 35px;
             height: 35px;
-            color: black;
+            color: white;
             // color: var(--secondary-color);
             margin: 0.5rem;
         }
@@ -137,6 +83,7 @@ body {
 
             li {
                 margin: 1rem;
+                color: white;
 
                 a {
                     color: var(--gray-color);
@@ -163,76 +110,11 @@ body {
     }
 }
 
-#nav a {
-    text-decoration: none;
-    color: white;
-}
-
 #title {
     font-size: 5.2em;
-    /* margin-bottom: 20px; */
     color: white;
     text-align: center;
     -webkit-text-stroke: 2px black;
-    /* text-shadow: 0px 0px 5px black; */
     padding-top: 3%;
     padding-bottom: 1%;
 }
-
-// .hide {
-//     display:none;
-// }
-
-// #title:hover + .hide {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     color: white;
-//     font-style: italic;
-//     font-size: 5.2em;
-//     margin-bottom: 20px;
-// }
-
-// #project-title {
-//     font-size: 5.2em;
-//     text-align: center;
-//     -webkit-text-stroke: 2px black;
-//     /* text-shadow: 0px 0px 5px black; */
-//     color: orangered;
-//     padding-top: 30px;
-// }
-
-// #skills {
-//     font-size: 5.2em;
-//     text-align: center;
-//     -webkit-text-stroke: 2px black;
-//     /* text-shadow: 0px 0px 5px black; */
-//     color: white;
-//     padding-top: 30px;
-// }
-
-// #education {
-//     font-size: 5.2em;
-//     color: white;
-//     text-align: center;
-//     /* -webkit-text-stroke: 2px black; */
-//     text-shadow: 0px 0px 5px black;
-//     padding-top: 30px;
-// }
-
-// #experience {
-//     font-size: 5.2em;
-//     text-align: center;
-//     color: red;
-//     -webkit-text-stroke: 2px black;
-//     /* text-shadow: 0px 0px 5px black; */
-//     padding-top: 30px;
-// }
-
-// #contact {
-//     font-size: 5.2em;
-//     margin-bottom: 20px;
-//     color: white;
-//     text-align: center;
-//     text-shadow: 0px 0px 5px black;
-// }

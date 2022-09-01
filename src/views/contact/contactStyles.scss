@@ -1,13 +1,13 @@
-.z-index {
-    z-index: -1;
+* {
+    padding:0;
+    margin:0;
 }
 
-#contact {
+#Contact {
     font-size: 5.2em;
     margin-bottom: 20px;
     color: black;
     text-align: center;
-    // text-shadow: 0px 0px 5px black;
     @media screen and (max-width: 900px) {
         font-size: 3em;
         padding-bottom: 1%;
@@ -19,7 +19,6 @@
     margin-bottom: 20px;
     color: black;
     text-align: center;
-    // text-shadow: 0px 0px 5px black;
     @media screen and (max-width: 900px) {
         font-size: 1.5em;
         font-weight: 600;
@@ -39,7 +38,7 @@
 
 .icon-columns {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .hide {
@@ -53,5 +52,4 @@
     color: black;
     font-style: italic;
     font-size: 1.5em;
-    /* -webkit-text-stroke: .5px black; */
 }

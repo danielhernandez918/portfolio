@@ -1,5 +1,4 @@
 import React from 'react';
-
 import calPoly from '../../static/images/cal_poly.png';
 import dojo from '../../static/images/dojo.png';
 import colorado from '../../static/images/colorado.png';
@@ -9,8 +8,8 @@ import './educationStyles.scss';
 const Education = () => {
 
     return (
-        <div>
-        <h1 id="education">Education</h1>
+    <div className="color">
+        <h1 id="Education">Education</h1>
         <motion.div 
                 whileInView={{y: [50, 0], opacity: [0, 1]}}
                 transition={{ duraction: 0.5 }} >
@@ -21,7 +20,7 @@ const Education = () => {
                 <div className="edu">
                     <h1>Coding Dojo Bootcamp</h1>
                     <h2>Computer Software Engineering</h2>
-                    <p>Jan 2022 - Apr 2022</p> 
+                    <p>Jan 2022 - May 2022</p> 
                 </div>
             </div>
             <br/>

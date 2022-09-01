@@ -15,14 +15,13 @@ const Nav = () => {
     const [toggle, setToggle] = useState(false);
 
     return (
-        <nav >
+        <nav className="main">
             <ul id="nav">
-                <li><a href="#title"  onMouseOver={changeLineOver} onMouseLeave={changeLineLeave} onclick="spidey()">About Me</a></li>
-                <li><a href="#project-title"  onMouseOver={changeLineOver} onMouseLeave={changeLineLeave} onclick="spidey()">Projects</a></li>
-                <li><a href="#skill"  onMouseOver={changeLineOver} onMouseLeave={changeLineLeave} onclick="spidey()">Skills</a></li>
-                <li><a href="#experience"  onMouseOver={changeLineOver} onMouseLeave={changeLineLeave} onclick="spidey()">Work Experience</a></li>
-                <li><a href="#education"  onMouseOver={changeLineOver} onMouseLeave={changeLineLeave} onclick="spidey()">Education</a></li>
-                <li><a href="#contact" onMouseOver={changeLineOver} onMouseLeave={changeLineLeave} onclick="spidey()">Contact Me</a></li>
+                {['About', 'Projects', 'Skills', 'Experience', 'Education', 'Contact'].map((item) => (
+                    <li  key={item}>
+                        <a href={`#${item}`} onMouseOver={changeLineOver} onMouseLeave={changeLineLeave} onClick={() => setToggle(false)}>{item}</a>
+                    </li>
+                ))}
             </ul>
             <div className='app__navbar-menu'>
                 <HiMenuAlt4 onClick={() => setToggle(true)} />
@@ -34,9 +33,9 @@ const Nav = () => {
                     >
                         <HiX onClick={() => setToggle(false)} />
                         <ul>
-                            {['about', 'projects', 'skills', 'experience', 'education', 'contact'].map((item) => (
+                            {['About', 'Projects', 'Skills', 'Experience', 'Education', 'Contact'].map((item) => (
                                 <li  key={item}>
-                                    <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
+                                    <a href={`#${item}`} onMouseOver={changeLineOver} onMouseLeave={changeLineLeave} onClick={() => setToggle(false)}>{item}</a>
                                 </li>
                             ))}
                         </ul>

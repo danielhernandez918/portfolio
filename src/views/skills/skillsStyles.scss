@@ -1,8 +1,12 @@
-#skill {
+* {
+    padding:0;
+    margin:0;
+}
+
+#Skills {
     font-size: 5.2em;
     text-align: center;
     -webkit-text-stroke: 2px black;
-    /* text-shadow: 0px 0px 5px black; */
     color: black;
     padding-top: 30px;
 }
@@ -32,9 +36,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-
     margin-right: 5rem;
-
     @media screen and (max-width: 900px) {
         margin-right: 0;
         justify-content: center;
@@ -92,4 +94,8 @@
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.color {
+    background-color: rgb(227, 228, 232);
 }

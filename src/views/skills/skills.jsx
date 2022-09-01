@@ -34,7 +34,7 @@ const Skills = () => {
                 className="skills-List">
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={html} alt="javascript-circle" />
+                        <img src={html} alt="Html-circle" />
                     </div>
                     <p className="p-text">HTML</p>
                 </div>
@@ -46,103 +46,103 @@ const Skills = () => {
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={cssPic} alt="javascript-circle" />
+                        <img src={cssPic} alt="css-circle" />
                     </div>
                     <p className="p-text">CSS</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={python} alt="javascript-circle" />
+                        <img src={python} alt="python-circle" />
                     </div>
                     <p className="p-text">Python</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={java} alt="javascript-circle" />
+                        <img src={java} alt="java-circle" />
                     </div>
                     <p className="p-text">Java</p>
                 </div>
                 <div className="skills-Item flex">
                     <div class="flex">
-                        <img src={flaskPic} alt="javascript-circle" />
+                        <img src={flaskPic} alt="flask-circle" />
                     </div>
                     <p className="p-text">Flask</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={mongodb} alt="javascript-circle" />
+                        <img src={mongodb} alt="mongodb-circle" />
                     </div>
                     <p className="p-text">MongoDB</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={react} alt="javascript-circle" />
+                        <img src={react} alt="react-circle" />
                     </div>
                     <p className="p-text">React</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={node} alt="javascript-circle" />
+                        <img src={node} alt="node-circle" />
                     </div>
                     <p className="p-text">Node</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={mysql} alt="javascript-circle" />
+                        <img src={mysql} alt="mysql-circle" />
                     </div>
                     <p className="p-text">MySQL</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={git} alt="javascript-circle" />
+                        <img src={git} alt="git-circle" />
                     </div>
                     <p className="p-text">Git</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={github} alt="javascript-circle" />
+                        <img src={github} alt="github-circle" />
                     </div>
                     <p className="p-text">Github</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={bootstrap} alt="javascript-circle" />
+                        <img src={bootstrap} alt="bootstrap-circle" />
                     </div>
                     <p className="p-text">Bootstrap</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={vscode} alt="javascript-circle" />
+                        <img src={vscode} alt="vscode-circle" />
                     </div>
                     <p className="p-text">VSCode</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={springtool} alt="javascript-circle" />
+                        <img src={springtool} alt="springtool-circle" />
                     </div>
                     <p className="p-text">Springtool</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={jsp} alt="javascript-circle" />
+                        <img src={jsp} alt="jsp-circle" />
                     </div>
                     <p className="p-text">Java Server Pages</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={jquery} alt="javascript-circle" />
+                        <img src={jquery} alt="jquery-circle" />
                     </div>
                     <p className="p-text">jQuery</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={json} alt="javascript-circle" />
+                        <img src={json} alt="json-circle" />
                     </div>
                     <p className="p-text">JSON</p>
                 </div>
                 <div className="skills-Item flex">
                     <div className="flex">
-                        <img src={postman} alt="javascript-circle" />
+                        <img src={postman} alt="postman-circle" />
                     </div>
                     <p className="p-text">Postman</p>
                 </div>

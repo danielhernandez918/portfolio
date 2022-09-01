@@ -21,7 +21,7 @@
     border-radius: 15px;
     width: max-content;
     padding: .1em;
-    padding-top: 3%;
+    padding-top: 1.5%;
     margin-bottom: .3%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     @media screen and (max-width: 900px) {
@@ -51,6 +51,8 @@
 }
 
 .user-picL{
+    background-color: white;
+    padding: .5em;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     @media screen and (max-width: 900px) {

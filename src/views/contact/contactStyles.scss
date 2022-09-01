@@ -15,7 +15,7 @@
 }
 
 .email {
-    font-size: 5.2em;
+    font-size: 5em;
     margin-bottom: 20px;
     color: black;
     text-align: center;
@@ -39,6 +39,13 @@
 .icon-columns {
     display: flex;
     flex-direction: column-reverse;
+}
+
+.links-name {
+    border-radius: 90%;
+    &:hover {
+        box-shadow: 0 0 25px rgb(179, 65, 65);
+    }
 }
 
 .hide {

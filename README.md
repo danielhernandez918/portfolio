@@ -1,1 +1,1 @@
-Daniel Hernandez Portfolio mading using React, JSX, and SASS
+Daniel Hernandez Portfolio made using React, JSX, and SASS

@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eea96c2e.css",
-    "main.js": "/portfolio/static/js/main.959b871a.js",
+    "main.js": "/portfolio/static/js/main.41384732.js",
     "static/js/787.c4e7f8f9.chunk.js": "/portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/dnd.mp4": "/portfolio/static/media/dnd.a7016421a5beb3391bde.mp4",
     "static/media/alarm.mp4": "/portfolio/static/media/alarm.5104a1015f68247b7734.mp4",
     "static/media/elden.mp4": "/portfolio/static/media/elden.34c1bf3c32be1a08e449.mp4",
+    "static/media/bugTracker.mp4": "/portfolio/static/media/bugTracker.31fe87373cfd5c01d515.mp4",
+    "static/media/portfolio.mp4": "/portfolio/static/media/portfolio.54c80a8020a8d8db9ff3.mp4",
     "static/media/aboutBG.jpg": "/portfolio/static/media/aboutBG.171031bfd7ed25f53ace.jpg",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.1df44ece8cf851cecf69.png",
     "static/media/springtool.png": "/portfolio/static/media/springtool.8cc1c406f30060a4a963.png",
@@ -23,11 +25,11 @@
     "static/media/css.png": "/portfolio/static/media/css.5721a3928fe43de6baf8.png",
     "index.html": "/portfolio/index.html",
     "main.eea96c2e.css.map": "/portfolio/static/css/main.eea96c2e.css.map",
-    "main.959b871a.js.map": "/portfolio/static/js/main.959b871a.js.map",
+    "main.41384732.js.map": "/portfolio/static/js/main.41384732.js.map",
     "787.c4e7f8f9.chunk.js.map": "/portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eea96c2e.css",
-    "static/js/main.959b871a.js"
+    "static/js/main.41384732.js"
   ]
 }

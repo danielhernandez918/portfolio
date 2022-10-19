@@ -1,0 +1,57 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#Education {
+    font-size: 5.2em;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    @media screen and (max-width: 900px) {
+        font-size: 3em;
+        padding-bottom: 1%;
+    }
+}
+
+.edu{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    gap: 5px;
+    list-style-type: none;
+    color:black;
+    @media screen and (max-width: 900px) {
+        font-size: .8em;
+        padding-bottom: 1%;
+    }
+}
+
+.row-edu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 100px;
+    border-radius: 50%;
+    @media screen and (max-width: 900px) {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.even {
+    flex: 2;
+    text-align: end;
+}
+
+.color {
+    background-color: rgb(227, 228, 232);
+}
+
+p{
+    font-weight: 600;
+}

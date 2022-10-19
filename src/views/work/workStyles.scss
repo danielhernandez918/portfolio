@@ -1,0 +1,46 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#experience {
+    font-size: 5.2em;
+    text-align: center;
+    color: black;
+    -webkit-text-stroke: 2px black;
+    padding-top: 30px;
+    @media screen and (max-width: 900px) {
+        font-size: 3em;
+    }
+}
+
+.work {
+    margin: 0px 20px 0px 20px;
+    color: black;
+        -webkit-text-stroke: .25px black;
+    padding-bottom: 10px;
+}
+
+.location-years {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0px; 
+    justify-content: space-between;
+    gap: 20px;
+    @media screen and (max-width: 900px) {
+        font-size: .75em;
+    }
+}
+
+.locationUnderline {
+    text-decoration: underline black;
+}
+
+.responsiblities {
+    margin-left: 3%;
+    font-size: 1.5em;
+    @media screen and (max-width: 900px) {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,120 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    font-size: 2.2em;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(179, 65, 65);
+    z-index: 2;
+    @media screen and (max-width: 900px) {
+        display: none;
+    }
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.app__navbar-menu {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: fixed;
+    right:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0.5rem;
+    background-color: rgb(179, 65, 65);
+    z-index: 2;
+    //for hamburger button
+    svg {
+        width: 70%;
+        height: 70%;
+        color: white;
+    }
+    //for menu popout
+    div {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 5;
+        padding: 1rem;
+        width: 80%;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        background-color: rgb(179, 65, 65);
+        background-size: cover;
+        background-repeat: repeat;
+        box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+        //for x
+        svg {
+            width: 35px;
+            height: 35px;
+            color: white;
+            // color: var(--secondary-color);
+            margin: 0.5rem;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+
+            li {
+                margin: 1rem;
+                color: white;
+
+                a {
+                    color: var(--gray-color);
+                    text-decoration: none;
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        color: var(--secondary-color);
+                    }
+                }
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        display: none;
+    }
+}
+
+#title {
+    font-size: 5.2em;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}

@@ -19,7 +19,7 @@ const Projects = () => {
                 transition={{ duraction: 0.5 }} >
                 <h3 className="project-name">Alarm Breaks</h3>
                 <div className="projectFlex">                            
-                    <video src={alarm}  autoPlay loop muted/>
+                    <video src={alarm}  autoPlay loop muted playsInline/>
                     <div className="space">
                         <p className="projectDesc">Allows users to customize and activate multiple alarms.</p>
                         <br/>
@@ -53,7 +53,7 @@ const Projects = () => {
                 transition={{ duraction: 0.5 }} >
                 <h3 className="project-name">Elden Ring Search</h3>
                 <div className="projectFlex">
-                    <video src={elden}  autoPlay loop muted/>
+                    <video src={elden}  autoPlay loop muted playsInline/>
                     <div className="space">
                         <p className="projectDesc">Allows users to use searchbar or category lists to search for items, spells, weapons, etc via third-party API. </p>
                         <br/>
@@ -87,7 +87,7 @@ const Projects = () => {
                 transition={{ duraction: 0.5 }} >
                 <h3 className="project-name">DND Minatures E-Commerce</h3>
                 <div className="projectFlex">
-                    <video src={dnd}  autoPlay loop muted/>
+                    <video src={dnd}  autoPlay loop muted playsInline/>
                     <div className="space">
                         <p className="projectDesc">Allow users to add DND miniatures to shopping cart and/or wishlist along with Stripe for payment processing. </p>
                         <br/>
@@ -121,7 +121,7 @@ const Projects = () => {
                 transition={{ duraction: 0.5 }} >
                 <h3 className="project-name">Portfolio</h3>
                 <div className="projectFlex">
-                    <video src={portfolio}  autoPlay loop muted/>
+                    <video src={portfolio}  autoPlay loop muted playsInline/>
                     <div className="space">
                         <p className="projectDesc">Portfolio website showing my projects, skills, work experience, educations and more. </p>
                         <br/>

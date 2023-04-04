@@ -63,7 +63,7 @@ const Skills = () => {
                     <p className="p-text">Java</p>
                 </div>
                 <div className="skills-Item flex">
-                    <div class="flex">
+                    <div className="flex">
                         <img src={flaskPic} alt="flask-circle" />
                     </div>
                     <p className="p-text">Flask</p>

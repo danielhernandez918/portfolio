@@ -4,13 +4,13 @@
 }
 
 #experience {
-    font-size: 5.2em;
+    font-size: 5.2rem;
     text-align: center;
     color: black;
     -webkit-text-stroke: 2px black;
     padding-top: 30px;
-    @media screen and (max-width: 900px) {
-        font-size: 3em;
+    @media screen and (max-width: 993px) {
+        font-size: 3rem;
     }
 }
 
@@ -28,8 +28,12 @@
     margin-bottom: 0px; 
     justify-content: space-between;
     gap: 20px;
-    @media screen and (max-width: 900px) {
-        font-size: .75em;
+    @media screen and (max-width: 993px) {
+        font-size: .75rem;
+    }
+    @media screen and (max-width: 1280px) {
+        flex-direction: column;
+        align-items: start;
     }
 }
 
@@ -39,8 +43,8 @@
 
 .responsiblities {
     margin-left: 3%;
-    font-size: 1.5em;
-    @media screen and (max-width: 900px) {
-        font-size: 1em;
+    font-size: 1.5rem;
+    @media screen and (max-width: 993px) {
+        font-size: 1rem;
     }
 }

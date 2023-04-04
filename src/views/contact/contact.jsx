@@ -19,11 +19,11 @@ const Contact = () => {
                         <p class="hide">Email</p>
                     </div> */}
                     <div className="icon-columns">
-                        <a className="links-name" href="https://www.linkedin.com/in/danielhernandez918" target="_blank" rel="noreferrer"><img class="icon" src={linkedin} alt="linkedin icon"/></a>
+                        <a className="links-name" href="https://www.linkedin.com/in/danielhernandez918" target="_blank" rel="noreferrer"><img className="icon" src={linkedin} alt="linkedin icon"/></a>
                         <p className="hide">LinkedIn</p>
                     </div>
                     <div className="icon-columns">
-                        <a className="links-name" href="https://github.com/danielhernandez918" target="_blank" rel="noreferrer"><img class="icon" src={github} alt="github icon"/></a>
+                        <a className="links-name" href="https://github.com/danielhernandez918" target="_blank" rel="noreferrer"><img className="icon" src={github} alt="github icon"/></a>
                         <p className="hide">GitHub</p>
                     </div>
                 </div>

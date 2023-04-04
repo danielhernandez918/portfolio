@@ -4,23 +4,47 @@
 }
 
 #Contact {
-    font-size: 5.2em;
+    font-size: 5.2rem;
     margin-bottom: 20px;
     color: black;
     text-align: center;
-    @media screen and (max-width: 900px) {
-        font-size: 3em;
+    @media screen  and (max-width: 576px) {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+        font-size: 2.7rem;
+        font-weight: 600;
+    }
+    @media screen and (min-width: 993px) and (max-width: 1280px) {
+        font-size: 3rem;
         padding-bottom: 1%;
     }
 }
 
 .email {
-    font-size: 5em;
+    font-size: 5rem;
     margin-bottom: 20px;
     color: black;
     text-align: center;
-    @media screen and (max-width: 900px) {
-        font-size: 1.5em;
+    @media screen  and (max-width: 576px) {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    @media screen and (min-width: 993px) and (max-width: 1280px) {
+        font-size: 3rem;
         font-weight: 600;
     }
 }
@@ -58,5 +82,5 @@
     justify-content: center;
     color: black;
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }

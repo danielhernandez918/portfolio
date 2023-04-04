@@ -8,14 +8,14 @@
     align-items: center;
     justify-content: space-around;
     gap: 25px;
-    font-size: 2.2em;
+    font-size: 2.2rem;
     list-style-type: none;
     position: fixed;
     width: 100%;
     margin: 0 auto;
     background-color: rgb(179, 65, 65);
     z-index: 2;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 993px) {
         display: none;
     }
 }
@@ -100,18 +100,18 @@
             }
         }
 
-        @media screen and (min-width: 900px) {
+        @media screen and (min-width: 993px) {
             display: none;
         }
     }
 
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 993px) {
         display: none;
     }
 }
 
 #title {
-    font-size: 5.2em;
+    font-size: 5.2rem;
     color: white;
     text-align: center;
     -webkit-text-stroke: 2px black;

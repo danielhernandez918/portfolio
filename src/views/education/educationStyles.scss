@@ -4,12 +4,12 @@
 }
 
 #Education {
-    font-size: 5.2em;
+    font-size: 5.2rem;
     color: black;
     text-align: center;
     padding-top: 30px;
-    @media screen and (max-width: 900px) {
-        font-size: 3em;
+    @media screen and (max-width: 993px) {
+        font-size: 3rem;
         padding-bottom: 1%;
     }
 }
@@ -21,8 +21,8 @@
     gap: 5px;
     list-style-type: none;
     color:black;
-    @media screen and (max-width: 900px) {
-        font-size: .8em;
+    @media screen and (max-width: 993px) {
+        font-size: .8rem;
         padding-bottom: 1%;
     }
 }
@@ -37,7 +37,7 @@
 .icon {
     width: 100px;
     border-radius: 50%;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 9993px) {
         width: 100px;
         height: 100px;
     }
@@ -46,6 +46,10 @@
 .even {
     flex: 2;
     text-align: end;
+    @media screen and (max-width: 1280px) {
+        flex:0;
+        text-align: end;
+    }
 }
 
 .color {
